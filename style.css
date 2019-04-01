@@ -65,11 +65,15 @@
 #register-form {
   position: relative;
   z-index: 2;
+  opacity: 0;
+  display: none;
 }
 
 #login-form{
   position: relative;
   z-index: 1;
+  opacity: 1;
+  display: block;
 }
 
 body {
